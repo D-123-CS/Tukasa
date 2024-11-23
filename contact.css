@@ -1,0 +1,116 @@
+.header
+{
+    /* background-image: linear-gradient(90deg, rgba(32, 67, 142,0.7), rgba(35, 76, 166,0.6), rgba(23, 53, 124,0.5)),url("contact-us-backgr
+    ound.jpg"); */
+    background-image: linear-gradient(90deg, rgba(101, 101, 101, 0.2), rgba(101, 101, 101, 0.7), rgba(101, 101, 101, 0.5)),
+	url("images/adv_bg.jpg") ;
+    background-size: cover;
+    height: 300px;
+    padding: 15%;
+
+}
+
+.header .content1  h2
+{
+    font-size: 60px;
+    color:#00008B;
+    text-align:center;
+
+}
+
+/* form */
+.section2
+{
+    border: none;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    margin:5% 0%;
+   
+}
+.section2 .box1
+{
+    border: none;
+    height: 500px; 
+    width: 30%;
+    margin-left: 12%;
+}
+.section2 .box1 h1
+{
+font-size: 30px;
+}
+
+.contact-form {
+    padding: 40px 0;
+    margin: 0 10px;
+}
+ 
+.form-container {
+    max-width: 200%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    height: 630px;
+}
+ 
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 5%;
+}
+ 
+.form-group {
+    margin-bottom: 20px;
+}
+ 
+.form-container label {
+    display:block;
+    font-weight: bold;
+    padding-left: 100px;
+    padding: 10px;
+}
+
+.form-container input, textarea{
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    resize: vertical;
+    margin-left: 3%;
+}
+.submit-button {
+    padding: 10px 20px;
+    background-color: #0dac30;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 7%;
+   margin-left: 40%;
+   /* margin-top: 10%; */
+}
+ 
+
+
+.section2 .box2
+{
+    border: none;
+    height: 530px; 
+    width: 34%;
+    margin-left: 12%;
+}
+.section2 .box2 h2
+{
+    padding-top: 11%;
+    text-align: center;
+}
+
+.section2 .box2 iframe
+{
+    padding-top: 3%;
+    border-radius:5%;
+    height: 650px;
+}
